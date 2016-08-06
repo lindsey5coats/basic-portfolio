@@ -1,5 +1,78 @@
+
+
+.name{
+	margin-left: 20px;
+	padding-left: 20px;
+	
+}
+
+.pagelinks{
+	font-size: 18px;
+	text-align: right;
+}
+
+
 h1{
 	font-size: 40px;
 	background-color: lightblue;
+	text-align: left;
+	font-family: 'Fjalla One', sans-serif;
 
 }
+
+footer, h3, h2, a{
+	font-family: 'Oswald', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Oswald:300', sans-serif;
+}
+
+.footer{
+	text-align: center;
+}
+
+.connectlinks{
+	text-align: right;
+}
+
+/**
+ * CSS Pseudo-Classes Demo
+ **
+
+/* Normal Element Rule */
+a{
+	font-size: 18px;
+}
+
+/* Hover Pseudo Class: 
+	 	Changes the style only when mouse hovers 
+	 	over the preceding element.
+*/
+a:hover{
+	background-color: red;
+}
+
+/* Focus Pseudo Class
+		Changes the style only when browser
+		gives the element focus
+		(in this case, after the link is clicked).
+*/
+a:focus{
+	background-color: orange;
+	outline:0;
+}
+
+/* Active Pseudo Class
+		Changes the style only while the user
+		clicks down on an element. This style ceases 
+		when the user releases their click.
+*/
+a:active{
+	background-color: black;
+}
+
