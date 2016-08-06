@@ -8,14 +8,17 @@
 
 .pagelinks{
 	font-size: 18px;
-	text-align: right;
+	float: right;
+	background-color: gray;
 }
+
+
 
 
 h1{
 	font-size: 40px;
 	background-color: lightblue;
-	text-align: left;
+	float: left;
 	font-family: 'Fjalla One', sans-serif;
 
 }
